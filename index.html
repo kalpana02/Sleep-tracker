@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleep-Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="icon.png" alt="sleeptracker.com">
+            <p>Sleep Tracker</p>
+        </div>
+    </nav>
+
+<header>
+    <video playsinline autoplay muted loop>
+        <source src="bg.mp4" type="video/mp4">
+    </video>
+
+
+    <div class="content">
+        <h1 class="text1">BETTER SLEEP.</h1>
+        <h1 class="text1">BETTER HEALTH.</h1>
+        <p class="text2">Sleep-Tracker tracks your daily naps and help you to improve your sleeping patterns!!</p>
+    </div>
+</header>
+
+    <section id="home">
+        class="login"><img src="i2.jpg" alt="bg">
+               <div class="container">     
+                <div class="title">Registration</div>
+                <div class="content">
+                  <form action="#">
+                    <div class="user-details">
+
+                      <div class="input-box">
+                        <span class="details">Full Name</span>
+                        <input type="text" placeholder="Enter your name" required>
+                      </div>
+
+
+                      <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" placeholder="Enter your email" required>
+                      </div>
+                      <div class="input-box">
+                        <span class="details">Age</span>
+                        <input type="number" placeholder="Enter your Age" min="1" max="130" step="1" required>
+                      </div>
+                      <div class="input-box">
+                        <span class="details">Heart Rate</span>
+                        <input type="number" placeholder="Enter your Heart Rate" min="40" max="250" step="1" required>
+                      </div>
+                      <div class="input-box">
+                        <span class="details">Total Time</span>
+                        <input type="time"  required>
+                      </div>
+                    </div>
+                    <div class="gender-details">
+                      <input type="radio" name="gender" id="dot-1">
+                      <input type="radio" name="gender" id="dot-2">
+                      <input type="radio" name="gender" id="dot-3">
+                      <span class="gender-title">Gender</span>
+                      <div class="category">
+                        <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender">Male</span>
+                      </label>
+                      <label for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="gender">Female</span>
+                      </label>
+                      <label for="dot-3">
+                        <span class="dot three"></span>
+                        <span class="gender">Prefer not to say</span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="button">
+                      <input type="submit" value="Register">
+                    </div>
+                  </form>
+                </div>
+              </div>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.sleeptracker.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+</html>
